@@ -23,10 +23,10 @@ struct MyApp: App {
     - Implements the computed property `body`, which is a requirement of the `App` protocol.
     - Returns the contents of your app described as a `Scene.
     - `Scene` contains the view hierarchy that defines the app's user interface.
-        - `[WindowGroup](https://developer.apple.com/documentation/SwiftUI/WindowGroup)` : A Scene that presents a group of identically structured windows.
-        - `[Window](https://developer.apple.com/documentation/SwiftUI/Window)` : A scene that presents its content in a single, unique window. (macOS only) 
-        - `[DocumentGroup](https://developer.apple.com/documentation/SwiftUI/DocumentGroup)` : A scene that enables support for opening, creating, and saving documents.
-        - `[Settings](https://developer.apple.com/documentation/SwiftUI/Settings)` : A scene that presents an interface for viewing and modifying an app's settings. (macOs only)
+        - [WindowGroup](https://developer.apple.com/documentation/SwiftUI/WindowGroup) : A Scene that presents a group of identically structured windows.
+        - [Window](https://developer.apple.com/documentation/SwiftUI/Window) : A scene that presents its content in a single, unique window. (macOS only) 
+        - [DocumentGroup](https://developer.apple.com/documentation/SwiftUI/DocumentGroup) : A scene that enables support for opening, creating, and saving documents.
+        - [Settings](https://developer.apple.com/documentation/SwiftUI/Settings) : A scene that presents an interface for viewing and modifying an app's settings. (macOS only)
 - `WindowGroup`
     - SwiftUI provides platform-specific behaviors for `WindowGroup`.
     - In macOS and iPadOS, a person can open more than one window from the group.
