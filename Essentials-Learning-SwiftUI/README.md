@@ -67,3 +67,141 @@ struct ContentView: View {
     - `foregroundColor(_:)` modifier : Adds color to the image view.
 - `padding(_:_:)` modifier : Adding a platform-specific default amount of padding to the edges of the target view.
     - `padding([.bottom, .trailing], 20)` : Specify which edges and amount of padding to apply.
+
+## Specifying the view hierarchy of an app using a scene
+
+### Add a scene to the app
+
+A scene contains the view hierarchy of your app.
+You can specify your app's view hierarchy in a scene that SwiftUI provides, or you can create a custom scene.
+
+```swift
+import SwiftUI
+
+@main
+struct MyApp: App {
+    var body: some Scene {
+        WindowGroup {
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Journal", systemImage: "book")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Label("Settings", systemImage: "gear")
+                    }
+            }
+        }
+    }
+}
+```
+
+- `body` returns the primary scene `WindowGroup`, which describes the view hierarchy of the main window.
+    - The `WindowGroup` scene provides platform-specific behaviors for app.
+    - such as, supporting multiple windows in macOS and iPadOS.
+- `TabView` : A container view that provides tabs that people can use to switch between defferent subviews.
+    - Each of subviews apply the `tabItem(_:)` modifier.
+    - It tells the `TabView` the image and text to display in each tab.
+
+### Define another view hierarchy
+
+Declares another view hierarchy that takes advantage of feature specific to the Mac.
+
+```swift
+import SwiftUI
+
+@main
+struct MyApp: App {
+    var body: some View {
+        #if os(iOS)
+        WindowGroup {
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Journal", systemImage: "book")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Label("Settings", systemImage: "gear")
+                    }
+            }
+        }
+        #elseif os(macOS)
+        WindowGroup {
+            AlternativeContentView()
+        }
+
+        Settings {
+            SettingsView()
+        }
+        #endif
+    }
+}
+```
+
+- `Settings` : It's available in the app menu, which is a common feature of Mac apps.
+
+### Create custom scenes
+
+One improvement that can help make the code more readable and easier to maintain is to use custom scenes.
+A custom scene is one that you compose from other scenes.
+
+```swift
+import SwiftUI
+
+struct MyScene: Scene {
+    var body: some Scene {
+        WindowGroup {
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Journal", systemImage: "book")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Label("Settings", systemImage: "gear")
+                    }
+            }
+        }
+    }
+}
+
+struct MyAlternativeScene: Scene {
+    var body: some View {
+        WindowGroup {
+            AlternativeContentView()
+        }
+
+        #if os(macOS)
+        Settings {
+            SettingsView()
+        }
+        #endif
+    }
+}
+```
+
+- The custom scene `MyScene` is a structure that conforms to the `Scene` protocol.
+- A structure that conforms to `Scene` must implement the computed property `body`.
+
+### Refactor the code to use custom scenes
+
+```swift
+import SwiftUI
+
+@main
+struct MyApp: App {
+    var body: some View {
+        #if os(iOS)
+        MyScene()
+        #elseif os(macOS)
+        MyAlternativeScene()
+        #endif
+    }
+}
+```
+
+- Before refactoring the `MyApp` structure to use the custom scenes, the code is fairly long and complex.
+- This approach can make the implementation of computed property `body` more difficult to maintain.
+- After refactoring the code, the `MyApp` structure is easier to read and maintain.

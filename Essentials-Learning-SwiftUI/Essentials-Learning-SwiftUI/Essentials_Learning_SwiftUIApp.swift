@@ -11,7 +11,12 @@ import SwiftUI
 struct Essentials_Learning_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Journal", systemImage: "book")
+                    }
+            }
         }
     }
 }
