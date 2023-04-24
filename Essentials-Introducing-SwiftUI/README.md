@@ -93,7 +93,7 @@
     }
     ```
 
-### Attribute
+### Modifier
 
 - `padding` : Edges 또는 top, leading, trailing, bottom 각각의 inset 지정
     ```swift
@@ -214,7 +214,7 @@
     }
     ```
 
-### Attribute
+### Modifier
 
 - `navigationTitle` : Title 지정
     ```swift
