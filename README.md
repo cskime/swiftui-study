@@ -8,6 +8,7 @@
 
 # Contents
 
-|       | Name | Date |
-| :---: | :---: | :---: |
-| 1 | [SwiftUI Essentials: Introducing SwiftUI](https://github.com/cskime/swiftui-apple-study/tree/main/Essentials-Introducing-SwiftUI) | 2023.04.23 |
+|       | Name |
+| :---: | :---: |
+| 1 | [SwiftUI Essentials: Introducing SwiftUI](https://github.com/cskime/swiftui-apple-study/tree/main/Essentials-Introducing-SwiftUI) |
+| 1 | [SwiftUI Essentials: Learning SwiftUI](https://github.com/cskime/swiftui-apple-study/tree/main/Essentials-Learning-SwiftUI) |
