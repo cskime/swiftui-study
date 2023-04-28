@@ -125,3 +125,48 @@ HStack {
 - `RoundedRectangle` includes values for the `cornerRadius` and `style` parameters to define the rounded corners.
 - The `HStack` provides some default spacing between each shape and, to give each shape a square space to fill, the [`aspectRatio(_:contentMode:)`](https://developer.apple.com/documentation/SwiftUI/View/aspectRatio(_:contentMode:)-6j7xz) modifier makes the `HStack` three times as wide as it is tall.
 - [Drawing Paths and Shapes](https://developer.apple.com/tutorials/SwiftUI/drawing-paths-and-shapes)
+
+## Scaling views to complement text
+
+- Construct a layout that adapts to font styles, Dynamic Type, and varying string lengths.
+- It's important to define other elements relative to that text, so the view adapts to the text's size.
+- The symbol and padding can adapt as the text content changes for localizations, Dynamic Type sizes, or to display a different phrase.
+    - `@ScaledMetric`
+
+### Associate content with the text
+
+- Arranges the text and the symbol using `Label`
+    ```swift
+    Label(text, systemImage: image)
+    ```
+- Apply same font to both the text and image using `Font.TextStyle` value.
+    ```swift
+    Label(text, systemImage: image)
+        .font(.title)   // .largeTitle, .caption, ...
+    ```
+- `Capsule()` shape
+    ```swift
+    Label(text, systemImage: image)
+        .background(.purple, in: Capsule())
+    ```
+
+### Preview a custom view in Xcode
+
+- Implements `PreviewProvider` protocol.
+    - The Canvas can display several variants of your view.
+    - You can see how it adapts to different environments.
+
+### Adjust dimensions with ScaledMetric
+
+- The default value for dimensions such as the padding on this view, the widht and height of a frame aren't always going to work for your layout.
+- When you need to provide a numeric value that adapts to the environment's effective font size, use the `[ScaleMetric](https://developer.apple.com/documentation/SwiftUI/ScaledMetric)` property wrapper.
+    ```swift
+    @ScaledMetric(relativeTo: .title) var paddingWidth = 14.5
+    var body: some View {
+        label(keyword, systemImage: symbol)
+            .font(.title)
+            .padding(paddingWidth)
+    }
+    ```
+
+    - 
