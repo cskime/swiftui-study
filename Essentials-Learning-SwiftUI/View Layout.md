@@ -169,4 +169,5 @@ HStack {
     }
     ```
 
-    - 
+    - `paddingWidth` variable provides a value of 14.5 for content in a `DynamicTypeSize.large` Dynamic Type environment
+    - With the `ScaledMetric` property wrapper, the value is proportionally larger or smaller, according to the current value of `[dynamicTypeSize](https://developer.apple.com/documentation/SwiftUI/EnvironmentValues/dynamicTypeSize)`
