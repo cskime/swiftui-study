@@ -159,7 +159,7 @@ HStack {
 ### Adjust dimensions with ScaledMetric
 
 - The default value for dimensions such as the padding on this view, the widht and height of a frame aren't always going to work for your layout.
-- When you need to provide a numeric value that adapts to the environment's effective font size, use the `[ScaleMetric](https://developer.apple.com/documentation/SwiftUI/ScaledMetric)` property wrapper.
+- When you need to provide a numeric value that adapts to the environment's effective font size, use the [`ScaleMetric`](https://developer.apple.com/documentation/SwiftUI/ScaledMetric) property wrapper.
     ```swift
     @ScaledMetric(relativeTo: .title) var paddingWidth = 14.5
     var body: some View {
@@ -170,4 +170,26 @@ HStack {
     ```
 
     - `paddingWidth` variable provides a value of 14.5 for content in a `DynamicTypeSize.large` Dynamic Type environment
-    - With the `ScaledMetric` property wrapper, the value is proportionally larger or smaller, according to the current value of `[dynamicTypeSize](https://developer.apple.com/documentation/SwiftUI/EnvironmentValues/dynamicTypeSize)`
+    - With the `ScaledMetric` property wrapper, the value is proportionally larger or smaller, according to the current value of [`dynamicTypeSize`](https://developer.apple.com/documentation/SwiftUI/EnvironmentValues/dynamicTypeSize)
+
+## Layering content
+
+- Define views in an **overlay** or **background** to adapt their layout to the primary content.
+- You can define the relationships between views with **overlay** and **background** modifiers.
+    - Some content stays within the bounds of other element
+    - Some content maintains a specific margin around that content.
+
+### Define an overlay
+
+- A [`ZStack`](https://developer.apple.com/documentation/SwiftUI/ZStack) sizes each view based on the available space, **without consideration for the other views in the stack**.
+- To specify that the size of some content depends on the size of other content, ***define this secondary content inside one of the overlay or background modifiers***.
+    - [`overlay(alignment:content:)`](https://developer.apple.com/documentation/SwiftUI/View/overlay(alignment:content:))
+    - [`background(_:in:fillStyle:)`](https://developer.apple.com/documentation/SwiftUI/View/background(_:in:fillStyle:)-20tq5)
+
+### Define a background
+
+- A view uses the [`background(_:in:fillStyle:)`](https://developer.apple.com/documentation/SwiftUI/View/background(_:in:fillStyle:)-20tq5) modifier to place a shape behid the text that partially obscures any content behind it to provider higher contrast for the text.
+- A background modifier puts its content behind the view it modifies, rather than in front.
+    - A background modifier is similar to an overlay modifier, int that its content bases its size on the size of the view it modifies.
+    - A overlay modifier puts its content in front.
+    
