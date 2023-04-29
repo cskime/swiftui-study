@@ -192,4 +192,17 @@ HStack {
 - A background modifier puts its content behind the view it modifies, rather than in front.
     - A background modifier is similar to an overlay modifier, int that its content bases its size on the size of the view it modifies.
     - A overlay modifier puts its content in front.
-    
+
+## Choose the right way to hide a view
+
+- Control whether a view exists, and how that affets the overall layout.
+    - You can lay out all the other content as if the view doesn't exist, then update the position of the other content when the view becomes visible.
+    - You can reserve space for the view regardless of whether it's visible, so that it becomes visible, none of the other content needs to move to accomodate it.
+
+### Conditionally removing a view
+
+- Use a [`opacity(_:)`](https://developer.apple.com/documentation/SwiftUI/View/opacity(_:)) modifier with a value of `0`, so that the layout accounts for the error message whether or not it's visible.
+- Use this strategy for removing a view that doesn't affect other view's placement, like a view inside an [`overlay(alignment:content:)`](https://developer.apple.com/documentation/SwiftUI/View/overlay(alignment:content:)) modifier.
+- Use an **`if` statement** to only make room for the content when it's visible, and **shift other content** as it appears and disappears.
+- If you need to reserve space in a layout based on the measurement of a view, but never want to show that view, you can use the [`hidden()`](https://developer.apple.com/documentation/SwiftUI/View/hidden()) modifier
+- VoiceOver and gesture recognizers also ignore a view that you remove in any of these ways.
