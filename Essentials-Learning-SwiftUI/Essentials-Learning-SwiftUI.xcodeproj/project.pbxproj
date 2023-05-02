@@ -14,6 +14,7 @@
 		6534C25B29F7FFA200B1D8B6 /* KeywordBubbleDefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C25A29F7FFA200B1D8B6 /* KeywordBubbleDefaultPadding.swift */; };
 		6534C25D29FCAF3100B1D8B6 /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C25C29FCAF3100B1D8B6 /* CaptionedPhoto.swift */; };
 		6534C25F29FDDE8A00B1D8B6 /* IfElseTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C25E29FDDE8A00B1D8B6 /* IfElseTrain.swift */; };
+		6534C2612A0132F900B1D8B6 /* EventTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2602A0132F900B1D8B6 /* EventTile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6534C25A29F7FFA200B1D8B6 /* KeywordBubbleDefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubbleDefaultPadding.swift; sourceTree = "<group>"; };
 		6534C25C29FCAF3100B1D8B6 /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
 		6534C25E29FDDE8A00B1D8B6 /* IfElseTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTrain.swift; sourceTree = "<group>"; };
+		6534C2602A0132F900B1D8B6 /* EventTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				6534C25C29FCAF3100B1D8B6 /* CaptionedPhoto.swift */,
 				6534C25E29FDDE8A00B1D8B6 /* IfElseTrain.swift */,
 				6534C25A29F7FFA200B1D8B6 /* KeywordBubbleDefaultPadding.swift */,
+				6534C2602A0132F900B1D8B6 /* EventTile.swift */,
 				6534C25029F6BC8A00B1D8B6 /* Assets.xcassets */,
 				6534C25229F6BC8A00B1D8B6 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6534C2612A0132F900B1D8B6 /* EventTile.swift in Sources */,
 				6534C25D29FCAF3100B1D8B6 /* CaptionedPhoto.swift in Sources */,
 				6534C25F29FDDE8A00B1D8B6 /* IfElseTrain.swift in Sources */,
 				6534C24F29F6BC8800B1D8B6 /* ContentView.swift in Sources */,

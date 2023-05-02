@@ -206,3 +206,35 @@ HStack {
 - Use an **`if` statement** to only make room for the content when it's visible, and **shift other content** as it appears and disappears.
 - If you need to reserve space in a layout based on the measurement of a view, but never want to show that view, you can use the [`hidden()`](https://developer.apple.com/documentation/SwiftUI/View/hidden()) modifier
 - VoiceOver and gesture recognizers also ignore a view that you remove in any of these ways.
+
+## Organizing and aligning content with stacks
+
+- Create dynamic alignments that adapt to data and environment changes using stacks.
+- Use stacks to align content in rows and columns.
+- Use stacks to create graphic elements that help organize information.
+
+### Define a view with nested stacks
+
+- [`Text(_:format:)`](https://developer.apple.com/documentation/SwiftUI/Text/init(_:format:)) : Format a date. Automatically accounts for environment-specific conditions, like the current calendar and locale.
+    ```swift
+    Text(
+        Date.now, 
+        format: Date.FormatStyle()
+            .day(.defaultDigits)
+            .month(.wide)
+    )
+    ```
+- Customie a symbol image with the techniquies in:
+    - [Configuring and displaying symbol images in your UI.](https://developer.apple.com/documentation/uikit/uiimage/configuring_and_displaying_symbol_images_in_your_ui)
+- [`.firstTextBaseline`](https://developer.apple.com/documentation/SwiftUI/VerticalAlignment/firstTextBaseline) alignment
+        - Align contents with the title text.
+        - If you're arranging text and a symbol that only need to align with each other, it's better to use a `Label`.
+
+### Add a background with layered shapes
+
+- A [`background(alignment:content:)`](https://developer.apple.com/documentation/SwiftUI/View/background(alignment:content:)) modifier contains a `ZStack` of [`Shape`](https://developer.apple.com/documentation/SwiftUI/Shape) views.
+- This defines a background that adapts to the size of the information the main view displays.
+- [`frame(width:height:alignment:)`](https://developer.apple.com/documentation/SwiftUI/View/frame(width:height:alignment:)) modifier
+    - Specifying a frame on a decorative `Shape` is a common pattern.
+    - Specifying frames on text and controls may interfere with the sizing behavior and usability of thoes views.
+    - To learn best practices for adjusting the size of various views, see [Maintaining the adaptable sizes of built-in views](https://developer.apple.com/tutorials/swiftui-concepts/maintaining-the-adaptable-sizes-of-built-in-views)
