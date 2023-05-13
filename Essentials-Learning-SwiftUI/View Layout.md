@@ -238,3 +238,36 @@ HStack {
     - Specifying a frame on a decorative `Shape` is a common pattern.
     - Specifying frames on text and controls may interfere with the sizing behavior and usability of thoes views.
     - To learn best practices for adjusting the size of various views, see [Maintaining the adaptable sizes of built-in views](https://developer.apple.com/tutorials/swiftui-concepts/maintaining-the-adaptable-sizes-of-built-in-views)
+
+## Adjusting the space between views
+
+- You can adjust the layout by declaring where any extra space should go.
+- Some of the tools for managing the space between views are themselves views, like [`Spacer`](https://developer.apple.com/documentation/SwiftUI/Spacer).
+- There are view modifiers that affect the space adjacent to a view, like [`padding(_:_:)`](https://developer.apple.com/documentation/SwiftUI/View/padding(_:_:)).
+
+### Define your content
+
+- Use `HStack` to show horizontal spacing. An `HStack` puts some **spacing** between its subviews by default.
+- Try changing the color of the [`background(_:ignoreSafeAreaEdges:)`](https://developer.apple.com/documentation/SwiftUI/View/background(_:ignoresSafeAreaEdges:)) to another color
+
+### Customize a container's spacing
+
+- The default spacing of an `HStack` isn't right for all layouts.
+- You can specify a constant spacing between a stack's subviews, spacing that scales with Dynamic Type, or no spacing at all.
+- The SF symbol's size changes when the current [`dynamicTypeSize`](https://developer.apple.com/documentation/SwiftUI/EnvironmentValues/dynamicTypeSize) changes.
+    - Use [`@ScaledMetric`](https://developer.apple.com/documentation/SwiftUI/ScaledMetric) property wrapper to space property. It configures the property to change in **proportion to the current body font size**.
+    - This spacing adjusts proportionally in `HStack`.
+- Using the value of 0 for the spacing parameter removes all of the space between the views.
+
+### Add padding around subviews
+
+- You can add padding to the outer edge sof a view to put some space between that view and any neghboring views, or to the edge of a window or scene.
+- [`padding(_:_:)`](https://developer.apple.com/documentation/SwiftUI/View/padding(_:_:)) without any parameters puts space around all four edges.
+    - The size of the default padding varies, depending on attributes of the view and the environment where the view appears.
+    - You can also use a `ScaleMetric` property wrapper to adjust the spacing in response to font changes.
+
+### Add a view to create space
+
+- You can also create space by adding an invisible view that modifies your layout without displaying any content.
+- The `Spacer()` between vies pushes the content views as far apart as possible.
+    - You can specify a minimum width for each `Spacer`, or let it squish all the way to zero if the adjacent content needs all the space.
