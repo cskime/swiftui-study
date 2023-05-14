@@ -19,6 +19,8 @@
 		6534C2652A0D176900B1D8B6 /* DefaultSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2642A0D176900B1D8B6 /* DefaultSpacing.swift */; };
 		6534C2672A0EE20B00B1D8B6 /* SpecificSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2662A0EE20B00B1D8B6 /* SpecificSpacing.swift */; };
 		6534C26B2A10352400B1D8B6 /* AddingSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C26A2A10352400B1D8B6 /* AddingSpacer.swift */; };
+		6534C2762A1065BE00B1D8B6 /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2752A1065BE00B1D8B6 /* StarRating.swift */; };
+		6534C2782A106F3600B1D8B6 /* RegularTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2772A106F3600B1D8B6 /* RegularTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		6534C2642A0D176900B1D8B6 /* DefaultSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSpacing.swift; sourceTree = "<group>"; };
 		6534C2662A0EE20B00B1D8B6 /* SpecificSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificSpacing.swift; sourceTree = "<group>"; };
 		6534C26A2A10352400B1D8B6 /* AddingSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSpacer.swift; sourceTree = "<group>"; };
+		6534C2752A1065BE00B1D8B6 /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
+		6534C2772A106F3600B1D8B6 /* RegularTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				6534C2642A0D176900B1D8B6 /* DefaultSpacing.swift */,
 				6534C2662A0EE20B00B1D8B6 /* SpecificSpacing.swift */,
 				6534C26A2A10352400B1D8B6 /* AddingSpacer.swift */,
+				6534C2752A1065BE00B1D8B6 /* StarRating.swift */,
+				6534C2772A106F3600B1D8B6 /* RegularTitleView.swift */,
 				6534C25029F6BC8A00B1D8B6 /* Assets.xcassets */,
 				6534C25229F6BC8A00B1D8B6 /* Preview Content */,
 			);
@@ -161,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6534C2782A106F3600B1D8B6 /* RegularTitleView.swift in Sources */,
 				6534C2612A0132F900B1D8B6 /* EventTile.swift in Sources */,
 				6534C2652A0D176900B1D8B6 /* DefaultSpacing.swift in Sources */,
 				6534C25D29FCAF3100B1D8B6 /* CaptionedPhoto.swift in Sources */,
@@ -169,6 +176,7 @@
 				6534C25B29F7FFA200B1D8B6 /* KeywordBubbleDefaultPadding.swift in Sources */,
 				6534C2672A0EE20B00B1D8B6 /* SpecificSpacing.swift in Sources */,
 				6534C24D29F6BC8800B1D8B6 /* Essentials_Learning_SwiftUIApp.swift in Sources */,
+				6534C2762A1065BE00B1D8B6 /* StarRating.swift in Sources */,
 				6534C2632A0D15F900B1D8B6 /* TrainCar.swift in Sources */,
 				6534C26B2A10352400B1D8B6 /* AddingSpacer.swift in Sources */,
 			);

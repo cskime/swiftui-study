@@ -30,3 +30,31 @@
     - and reconnects the data to the view it's managing.
     - Then, SwiftUI rebuilds the view from is computed `body` property,
     - so that, the view reflects the current state of the data.
+
+## Creating a custom input control that binds to a value
+
+- Provide interactions that are unique to your app with custom controls that bind to a value
+    - [`Slider`](https://developer.apple.com/documentation/SwiftUI/Slider)
+    - [`TextFleid`](https://developer.apple.com/documentation/SwiftUI/TextField)
+- SwiftUI provides the building blocks you need to create a custom input control for your app.
+
+### Design a custom control
+
+- Consider following questions:
+    - What data does the control need?
+    - What does it do with that data?
+    - How it does it represent that data visually within the app?
+- In this sample, the rating control needs,
+    - `Int` property that represents the rating of a recipe.
+    - The control needs to be able to change the value of this property.
+    - It needs to display a set of stars that reflects the rating value.
+- By defining `rating` as a **binding variable**, `StarRating` can read and write the value event though another view is responsible for creating the value.
+
+### Make the control interactive
+
+- To make interactive, it uses the [`onTapGesture(count:perform:)`](https://developer.apple.com/documentation/SwiftUI/View/onTapGesture(count:perform:)) action.
+    - The tap gesture performs the action defined in the closure when a person clicks or taps the view.
+
+### Display the custom control in other views.
+
+    
