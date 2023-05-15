@@ -14,11 +14,11 @@
 
 |       | Name |
 | :---: | :---: |
-| 1 | [SwiftUI Essentials: Introducing SwiftUI](https://github.com/cskime/swiftui-apple-study/tree/main/Essentials-Introducing-SwiftUI) |
-| 2 | [SwiftUI Essentials: Learning SwiftUI](https://github.com/cskime/swiftui-apple-study/tree/main/Essentials-Learning-SwiftUI) |
+| 1 | [SwiftUI Essentials: Introducing SwiftUI](https://github.com/cskime/swiftui-study/tree/main/Apple%20Documentation/Essentials-Introducing-SwiftUI) |
+| 2 | [SwiftUI Essentials: Learning SwiftUI](https://github.com/cskime/swiftui-study/tree/main/Apple%20Documentation/Essentials-Learning-SwiftUI) |
 
 ## Lectures
 
 |       | Name |
 | :---: | :---: |
-| 1 | [Swiftful Thinking SwiftUI Bootcamp](https://github.com/cskime/swiftui-apple-study/tree/main/Essentials-Introducing-SwiftUI) |
+| 1 | [Swiftful Thinking SwiftUI Bootcamp](https://github.com/cskime/swiftui-study/tree/main/Swiftful%20Thinking%20SwiftUI%20Bootcamp/SwiftfulThinkingSwiftUIBootcamp) |
