@@ -79,10 +79,10 @@
 		6534C2D52A12EE0100B1D8B6 /* Beginner Level */ = {
 			isa = PBXGroup;
 			children = (
+				6534C2D62A12EE0E00B1D8B6 /* TextExample.swift */,
+				6534C2D72A12EE0E00B1D8B6 /* ShapeExample.swift */,
 				6534C2D92A12EE0E00B1D8B6 /* ColorExample.swift */,
 				6534C2D82A12EE0E00B1D8B6 /* GradientExample.swift */,
-				6534C2D72A12EE0E00B1D8B6 /* ShapeExample.swift */,
-				6534C2D62A12EE0E00B1D8B6 /* TextExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
