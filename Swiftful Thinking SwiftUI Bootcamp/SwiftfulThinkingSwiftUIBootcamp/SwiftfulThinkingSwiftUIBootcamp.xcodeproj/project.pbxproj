@@ -18,6 +18,7 @@
 		6534C2DF2A13A5EB00B1D8B6 /* SystemIconExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2DE2A13A5EB00B1D8B6 /* SystemIconExample.swift */; };
 		6534C2E12A13A92B00B1D8B6 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2E02A13A92B00B1D8B6 /* ImageExample.swift */; };
 		6534C2E32A13BB7A00B1D8B6 /* FrameExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2E22A13BB7A00B1D8B6 /* FrameExample.swift */; };
+		6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2E42A1436F200B1D8B6 /* BackgroundOverlayExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6534C2DE2A13A5EB00B1D8B6 /* SystemIconExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconExample.swift; sourceTree = "<group>"; };
 		6534C2E02A13A92B00B1D8B6 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 		6534C2E22A13BB7A00B1D8B6 /* FrameExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExample.swift; sourceTree = "<group>"; };
+		6534C2E42A1436F200B1D8B6 /* BackgroundOverlayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				6534C2DE2A13A5EB00B1D8B6 /* SystemIconExample.swift */,
 				6534C2E02A13A92B00B1D8B6 /* ImageExample.swift */,
 				6534C2E22A13BB7A00B1D8B6 /* FrameExample.swift */,
+				6534C2E42A1436F200B1D8B6 /* BackgroundOverlayExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6534C2CA2A12EDFD00B1D8B6 /* ContentView.swift in Sources */,
+				6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */,
 				6534C2DA2A12EE0E00B1D8B6 /* TextExample.swift in Sources */,
 				6534C2DB2A12EE0E00B1D8B6 /* ShapeExample.swift in Sources */,
 				6534C2DC2A12EE0E00B1D8B6 /* GradientExample.swift in Sources */,
