@@ -23,6 +23,8 @@
 		656BEE622A158522001D5DA0 /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE612A158522001D5DA0 /* PaddingExample.swift */; };
 		656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE632A158BDB001D5DA0 /* SpacerExample.swift */; };
 		656BEE662A184DAD001D5DA0 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE652A184DAD001D5DA0 /* ForEachExample.swift */; };
+		656BEE692A1850F9001D5DA0 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE682A1850F9001D5DA0 /* ScrollViewExample.swift */; };
+		656BEE6B2A1877A3001D5DA0 /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE6A2A1877A3001D5DA0 /* GridExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		656BEE612A158522001D5DA0 /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 		656BEE632A158BDB001D5DA0 /* SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExample.swift; sourceTree = "<group>"; };
 		656BEE652A184DAD001D5DA0 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
+		656BEE682A1850F9001D5DA0 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		656BEE6A2A1877A3001D5DA0 /* GridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				656BEE612A158522001D5DA0 /* PaddingExample.swift */,
 				656BEE632A158BDB001D5DA0 /* SpacerExample.swift */,
 				656BEE652A184DAD001D5DA0 /* ForEachExample.swift */,
+				656BEE682A1850F9001D5DA0 /* ScrollViewExample.swift */,
+				656BEE6A2A1877A3001D5DA0 /* GridExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 			files = (
 				6534C2CA2A12EDFD00B1D8B6 /* ContentView.swift in Sources */,
 				6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */,
+				656BEE6B2A1877A3001D5DA0 /* GridExample.swift in Sources */,
 				6534C2DA2A12EE0E00B1D8B6 /* TextExample.swift in Sources */,
 				6534C2DB2A12EE0E00B1D8B6 /* ShapeExample.swift in Sources */,
 				656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */,
@@ -190,6 +197,7 @@
 				6534C2DC2A12EE0E00B1D8B6 /* GradientExample.swift in Sources */,
 				6534C2E12A13A92B00B1D8B6 /* ImageExample.swift in Sources */,
 				6534C2E32A13BB7A00B1D8B6 /* FrameExample.swift in Sources */,
+				656BEE692A1850F9001D5DA0 /* ScrollViewExample.swift in Sources */,
 				656BEE622A158522001D5DA0 /* PaddingExample.swift in Sources */,
 				6534C2DF2A13A5EB00B1D8B6 /* SystemIconExample.swift in Sources */,
 				656BEE662A184DAD001D5DA0 /* ForEachExample.swift in Sources */,
