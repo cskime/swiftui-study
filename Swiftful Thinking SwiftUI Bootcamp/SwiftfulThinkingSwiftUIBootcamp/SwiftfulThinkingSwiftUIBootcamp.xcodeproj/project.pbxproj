@@ -30,6 +30,7 @@
 		656BEE712A1890CD001D5DA0 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE702A1890CD001D5DA0 /* StateExample.swift */; };
 		656BEE732A18EBFB001D5DA0 /* ExtractedFunctionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE722A18EBFB001D5DA0 /* ExtractedFunctionExample.swift */; };
 		656BEE752A18F061001D5DA0 /* ExtractSubviewsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE742A18F061001D5DA0 /* ExtractSubviewsExample.swift */; };
+		656BEE772A18F6F4001D5DA0 /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE762A18F6F4001D5DA0 /* BindingExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		656BEE702A1890CD001D5DA0 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		656BEE722A18EBFB001D5DA0 /* ExtractedFunctionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionExample.swift; sourceTree = "<group>"; };
 		656BEE742A18F061001D5DA0 /* ExtractSubviewsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsExample.swift; sourceTree = "<group>"; };
+		656BEE762A18F6F4001D5DA0 /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				656BEE702A1890CD001D5DA0 /* StateExample.swift */,
 				656BEE722A18EBFB001D5DA0 /* ExtractedFunctionExample.swift */,
 				656BEE742A18F061001D5DA0 /* ExtractSubviewsExample.swift */,
+				656BEE762A18F6F4001D5DA0 /* BindingExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				656BEE692A1850F9001D5DA0 /* ScrollViewExample.swift in Sources */,
 				656BEE622A158522001D5DA0 /* PaddingExample.swift in Sources */,
 				6534C2DF2A13A5EB00B1D8B6 /* SystemIconExample.swift in Sources */,
+				656BEE772A18F6F4001D5DA0 /* BindingExample.swift in Sources */,
 				656BEE712A1890CD001D5DA0 /* StateExample.swift in Sources */,
 				656BEE732A18EBFB001D5DA0 /* ExtractedFunctionExample.swift in Sources */,
 				656BEE752A18F061001D5DA0 /* ExtractSubviewsExample.swift in Sources */,
