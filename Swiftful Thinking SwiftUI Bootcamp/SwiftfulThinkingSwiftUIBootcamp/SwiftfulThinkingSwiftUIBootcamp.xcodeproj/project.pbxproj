@@ -35,6 +35,7 @@
 		656BEE862A198DFA001D5DA0 /* TernaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE852A198DFA001D5DA0 /* TernaryExample.swift */; };
 		656BEE882A19931B001D5DA0 /* AnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE872A19931B001D5DA0 /* AnimationExample.swift */; };
 		656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE892A199741001D5DA0 /* AnimationTImingExample.swift */; };
+		656BEE8C2A1B9295001D5DA0 /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		656BEE852A198DFA001D5DA0 /* TernaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryExample.swift; sourceTree = "<group>"; };
 		656BEE872A19931B001D5DA0 /* AnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample.swift; sourceTree = "<group>"; };
 		656BEE892A199741001D5DA0 /* AnimationTImingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTImingExample.swift; sourceTree = "<group>"; };
+		656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				656BEE852A198DFA001D5DA0 /* TernaryExample.swift */,
 				656BEE872A19931B001D5DA0 /* AnimationExample.swift */,
 				656BEE892A199741001D5DA0 /* AnimationTImingExample.swift */,
+				656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				656BEE6D2A18810A001D5DA0 /* SafeAreaExample.swift in Sources */,
 				6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */,
 				656BEE6B2A1877A3001D5DA0 /* GridExample.swift in Sources */,
+				656BEE8C2A1B9295001D5DA0 /* TransitionExample.swift in Sources */,
 				6534C2DA2A12EE0E00B1D8B6 /* TextExample.swift in Sources */,
 				6534C2DB2A12EE0E00B1D8B6 /* ShapeExample.swift in Sources */,
 				656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */,
