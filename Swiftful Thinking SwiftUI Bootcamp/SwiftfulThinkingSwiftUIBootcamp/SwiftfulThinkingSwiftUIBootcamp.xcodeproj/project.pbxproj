@@ -37,6 +37,7 @@
 		656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE892A199741001D5DA0 /* AnimationTImingExample.swift */; };
 		656BEE8C2A1B9295001D5DA0 /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */; };
 		656BEE8E2A1B98EC001D5DA0 /* SheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8D2A1B98EC001D5DA0 /* SheetsExample.swift */; };
+		656BEE902A1BA155001D5DA0 /* PopoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8F2A1BA155001D5DA0 /* PopoverExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		656BEE892A199741001D5DA0 /* AnimationTImingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTImingExample.swift; sourceTree = "<group>"; };
 		656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 		656BEE8D2A1B98EC001D5DA0 /* SheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsExample.swift; sourceTree = "<group>"; };
+		656BEE8F2A1BA155001D5DA0 /* PopoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				656BEE892A199741001D5DA0 /* AnimationTImingExample.swift */,
 				656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */,
 				656BEE8D2A1B98EC001D5DA0 /* SheetsExample.swift */,
+				656BEE8F2A1BA155001D5DA0 /* PopoverExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				656BEE662A184DAD001D5DA0 /* ForEachExample.swift in Sources */,
 				6534C2DD2A12EE0E00B1D8B6 /* ColorExample.swift in Sources */,
 				656BEE6F2A188CEF001D5DA0 /* ButtonExample.swift in Sources */,
+				656BEE902A1BA155001D5DA0 /* PopoverExample.swift in Sources */,
 				6534C2C82A12EDFD00B1D8B6 /* SwiftfulThinkingSwiftUIBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
