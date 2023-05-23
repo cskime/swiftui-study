@@ -38,6 +38,7 @@
 		656BEE8C2A1B9295001D5DA0 /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */; };
 		656BEE8E2A1B98EC001D5DA0 /* SheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8D2A1B98EC001D5DA0 /* SheetsExample.swift */; };
 		656BEE902A1BA155001D5DA0 /* PopoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE8F2A1BA155001D5DA0 /* PopoverExample.swift */; };
+		656BEE922A1D5363001D5DA0 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE912A1D5363001D5DA0 /* NavigationViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 		656BEE8D2A1B98EC001D5DA0 /* SheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsExample.swift; sourceTree = "<group>"; };
 		656BEE8F2A1BA155001D5DA0 /* PopoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExample.swift; sourceTree = "<group>"; };
+		656BEE912A1D5363001D5DA0 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				656BEE8B2A1B9295001D5DA0 /* TransitionExample.swift */,
 				656BEE8D2A1B98EC001D5DA0 /* SheetsExample.swift */,
 				656BEE8F2A1BA155001D5DA0 /* PopoverExample.swift */,
+				656BEE912A1D5363001D5DA0 /* NavigationViewExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				6534C2DF2A13A5EB00B1D8B6 /* SystemIconExample.swift in Sources */,
 				656BEE772A18F6F4001D5DA0 /* BindingExample.swift in Sources */,
 				656BEE712A1890CD001D5DA0 /* StateExample.swift in Sources */,
+				656BEE922A1D5363001D5DA0 /* NavigationViewExample.swift in Sources */,
 				656BEE732A18EBFB001D5DA0 /* ExtractedFunctionExample.swift in Sources */,
 				656BEE752A18F061001D5DA0 /* ExtractSubviewsExample.swift in Sources */,
 				656BEE662A184DAD001D5DA0 /* ForEachExample.swift in Sources */,
