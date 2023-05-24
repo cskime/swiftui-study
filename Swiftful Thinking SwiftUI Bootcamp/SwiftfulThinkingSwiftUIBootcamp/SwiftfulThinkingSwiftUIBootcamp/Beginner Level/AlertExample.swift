@@ -15,6 +15,8 @@ struct AlertExample: View {
 //    @State var alertMessage = ""
     @State var backgroundColor = Color.yellow
     
+    @State var alertData = "Detail Data"
+    
     enum MyAlerts {
         case success
         case error
@@ -43,9 +45,31 @@ struct AlertExample: View {
              * alert(_:isPresented:isPresenting:content:)?를 사용해야한다.
              * Stack에 달면 안에 있는 모든 Button에 alert이 달린다.
              */
-            .alert(isPresented: $showAlert) {
-//                    getBasicAlert()
-                getCustomizedAlert()
+//            .alert(isPresented: $showAlert) {
+////                    getBasicAlert()
+//                getCustomizedAlert()
+//            }
+            
+            /* iOS 15부터는 Alert struct 대신 새로 추가된 .alert modifier를 사용해야 한다.
+             * - .alert(_:isPresented:presenting:actions:message:)
+             * - presenting : An optional source of truth for the alert. The system passes the contents to the modifier’s closures. You use this data to populate the fields of an alert that you create that the system displays to the user.
+             * details: https://medium.com/devtechie/how-to-show-alert-in-swiftui-ios-15-8b99d9dcb214
+             */
+            .alert("This is an alert", isPresented: $showAlert, presenting: alertData) { data in
+                /* Alert에 사용하는 Button에는 `role` parameter를 사용할 수 있다.
+                 * cancel role button은 선언한 순서에 상관 없이 항상 leading position에 위치한다. (가장 왼쪽 or 가장 아래쪽)
+                 */
+                Button("OK") {
+                    print("Using data when presenting")
+                }
+                Button("Not OK", role: .destructive) { }
+                Button("Cancel", role: .cancel) { }
+            } message: { data in
+                Text("This is a message with \(data).")
+                    /* Message parameter 안에서는 formatting modifier가 동작하지 않는다.
+                     * - Only unstyled message supported.
+                     */
+                    .font(.title)
             }
         }
     }
