@@ -70,6 +70,8 @@ struct NavigationViewExample: View {
                     } label: {
                         Image(systemName: "gear")
                     }
+//                    .accentColor(.red)    // iOS 15.0에서 deprecated. tint(_:)를 사용해야 한다.
+                    .tint(.red)
                 }
 //                HStack {
 //                    Image(systemName: "person.fill")
