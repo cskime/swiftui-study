@@ -29,6 +29,7 @@
 		656B012C2A26151700D28F63 /* ColorPickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B012B2A26151700D28F63 /* ColorPickerExample.swift */; };
 		656B01322A2618A900D28F63 /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B01312A2618A900D28F63 /* DatePickerExample.swift */; };
 		656B01342A261C2200D28F63 /* StepperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B01332A261C2200D28F63 /* StepperExample.swift */; };
+		656B01362A261DF800D28F63 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B01352A261DF800D28F63 /* SliderExample.swift */; };
 		656BEE602A14D14F001D5DA0 /* StacksExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE5F2A14D14F001D5DA0 /* StacksExample.swift */; };
 		656BEE622A158522001D5DA0 /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE612A158522001D5DA0 /* PaddingExample.swift */; };
 		656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE632A158BDB001D5DA0 /* SpacerExample.swift */; };
@@ -76,6 +77,7 @@
 		656B012B2A26151700D28F63 /* ColorPickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerExample.swift; sourceTree = "<group>"; };
 		656B01312A2618A900D28F63 /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
 		656B01332A261C2200D28F63 /* StepperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExample.swift; sourceTree = "<group>"; };
+		656B01352A261DF800D28F63 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
 		656BEE5F2A14D14F001D5DA0 /* StacksExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksExample.swift; sourceTree = "<group>"; };
 		656BEE612A158522001D5DA0 /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 		656BEE632A158BDB001D5DA0 /* SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExample.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				656B012B2A26151700D28F63 /* ColorPickerExample.swift */,
 				656B01312A2618A900D28F63 /* DatePickerExample.swift */,
 				656B01332A261C2200D28F63 /* StepperExample.swift */,
+				656B01352A261DF800D28F63 /* SliderExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				656BEE952A1E2EC1001D5DA0 /* ListExample.swift in Sources */,
 				656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */,
 				656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */,
+				656B01362A261DF800D28F63 /* SliderExample.swift in Sources */,
 				656B01242A24D4A900D28F63 /* TextEditorExample.swift in Sources */,
 				656BEE862A198DFA001D5DA0 /* TernaryExample.swift in Sources */,
 				656BEE602A14D14F001D5DA0 /* StacksExample.swift in Sources */,
