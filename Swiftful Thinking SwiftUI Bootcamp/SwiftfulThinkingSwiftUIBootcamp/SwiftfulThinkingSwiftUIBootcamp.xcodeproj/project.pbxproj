@@ -56,6 +56,7 @@
 		656BEE922A1D5363001D5DA0 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE912A1D5363001D5DA0 /* NavigationViewExample.swift */; };
 		656BEE952A1E2EC1001D5DA0 /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BEE942A1E2EC0001D5DA0 /* ListExample.swift */; };
 		657AE96C2A2776A100DBEEEA /* CustomModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96B2A2776A100DBEEEA /* CustomModelExample.swift */; };
+		657AE96E2A277AE400DBEEEA /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,7 @@
 		656BEE912A1D5363001D5DA0 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
 		656BEE942A1E2EC0001D5DA0 /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		657AE96B2A2776A100DBEEEA /* CustomModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelExample.swift; sourceTree = "<group>"; };
+		657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				656B013B2A276A6A00D28F63 /* OnAppearExample.swift */,
 				656B013D2A276D9200D28F63 /* TapGestureExample.swift */,
 				657AE96B2A2776A100DBEEEA /* CustomModelExample.swift */,
+				657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				656BEE922A1D5363001D5DA0 /* NavigationViewExample.swift in Sources */,
 				656BEE732A18EBFB001D5DA0 /* ExtractedFunctionExample.swift in Sources */,
 				656BEE752A18F061001D5DA0 /* ExtractSubviewsExample.swift in Sources */,
+				657AE96E2A277AE400DBEEEA /* ViewModelExample.swift in Sources */,
 				656BEE662A184DAD001D5DA0 /* ForEachExample.swift in Sources */,
 				6534C2DD2A12EE0E00B1D8B6 /* ColorExample.swift in Sources */,
 				656B013E2A276D9200D28F63 /* TapGestureExample.swift in Sources */,
