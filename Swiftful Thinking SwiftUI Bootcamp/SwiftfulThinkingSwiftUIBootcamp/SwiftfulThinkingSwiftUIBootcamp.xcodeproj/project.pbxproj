@@ -58,6 +58,7 @@
 		657AE96C2A2776A100DBEEEA /* CustomModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96B2A2776A100DBEEEA /* CustomModelExample.swift */; };
 		657AE96E2A277AE400DBEEEA /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */; };
 		657AE9702A27E73800DBEEEA /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */; };
+		657AE9722A28C12400DBEEEA /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9712A28C12400DBEEEA /* AppStorageExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,7 @@
 		657AE96B2A2776A100DBEEEA /* CustomModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelExample.swift; sourceTree = "<group>"; };
 		657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 		657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
+		657AE9712A28C12400DBEEEA /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				657AE96B2A2776A100DBEEEA /* CustomModelExample.swift */,
 				657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */,
 				657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */,
+				657AE9712A28C12400DBEEEA /* AppStorageExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				6534C2E12A13A92B00B1D8B6 /* ImageExample.swift in Sources */,
 				656BEE882A19931B001D5DA0 /* AnimationExample.swift in Sources */,
 				656B011A2A1EAD3000D28F63 /* AlertExample.swift in Sources */,
+				657AE9722A28C12400DBEEEA /* AppStorageExample.swift in Sources */,
 				6534C2E32A13BB7A00B1D8B6 /* FrameExample.swift in Sources */,
 				656B01382A2620B800D28F63 /* TabViewExample.swift in Sources */,
 				656B01282A24D6F100D28F63 /* ToggleBootcamp.swift in Sources */,
