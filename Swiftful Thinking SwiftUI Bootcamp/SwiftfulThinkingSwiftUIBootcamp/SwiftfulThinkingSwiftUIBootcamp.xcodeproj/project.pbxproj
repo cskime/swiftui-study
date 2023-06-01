@@ -63,6 +63,7 @@
 		657AE9762A28C94300DBEEEA /* BackgroundMaterialsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */; };
 		657AE9782A28CAE300DBEEEA /* TextSelectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */; };
 		657AE97A2A28CB7400DBEEEA /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9792A28CB7400DBEEEA /* ButtonStyleExample.swift */; };
+		657AE97C2A28CED900DBEEEA /* ListSwipeActionsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE97B2A28CED900DBEEEA /* ListSwipeActionsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 		657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsExample.swift; sourceTree = "<group>"; };
 		657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionExample.swift; sourceTree = "<group>"; };
 		657AE9792A28CB7400DBEEEA /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
+		657AE97B2A28CED900DBEEEA /* ListSwipeActionsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */,
 				657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */,
 				657AE9792A28CB7400DBEEEA /* ButtonStyleExample.swift */,
+				657AE97B2A28CED900DBEEEA /* ListSwipeActionsExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				657AE96E2A277AE400DBEEEA /* ViewModelExample.swift in Sources */,
 				656BEE662A184DAD001D5DA0 /* ForEachExample.swift in Sources */,
 				6534C2DD2A12EE0E00B1D8B6 /* ColorExample.swift in Sources */,
+				657AE97C2A28CED900DBEEEA /* ListSwipeActionsExample.swift in Sources */,
 				656B013E2A276D9200D28F63 /* TapGestureExample.swift in Sources */,
 				656BEE6F2A188CEF001D5DA0 /* ButtonExample.swift in Sources */,
 				656BEE902A1BA155001D5DA0 /* PopoverExample.swift in Sources */,
