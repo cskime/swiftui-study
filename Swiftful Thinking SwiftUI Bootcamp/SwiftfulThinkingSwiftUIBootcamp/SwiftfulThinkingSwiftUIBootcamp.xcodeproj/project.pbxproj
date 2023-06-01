@@ -59,6 +59,7 @@
 		657AE96E2A277AE400DBEEEA /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */; };
 		657AE9702A27E73800DBEEEA /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */; };
 		657AE9722A28C12400DBEEEA /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9712A28C12400DBEEEA /* AppStorageExample.swift */; };
+		657AE9742A28C5D200DBEEEA /* AsyncImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +116,7 @@
 		657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 		657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
 		657AE9712A28C12400DBEEEA /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
+		657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				657AE96D2A277AE400DBEEEA /* ViewModelExample.swift */,
 				657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */,
 				657AE9712A28C12400DBEEEA /* AppStorageExample.swift */,
+				657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				656BEE6D2A18810A001D5DA0 /* SafeAreaExample.swift in Sources */,
 				6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */,
 				656BEE6B2A1877A3001D5DA0 /* GridExample.swift in Sources */,
+				657AE9742A28C5D200DBEEEA /* AsyncImageExample.swift in Sources */,
 				656BEE8C2A1B9295001D5DA0 /* TransitionExample.swift in Sources */,
 				6534C2DA2A12EE0E00B1D8B6 /* TextExample.swift in Sources */,
 				656B013C2A276A6A00D28F63 /* OnAppearExample.swift in Sources */,
