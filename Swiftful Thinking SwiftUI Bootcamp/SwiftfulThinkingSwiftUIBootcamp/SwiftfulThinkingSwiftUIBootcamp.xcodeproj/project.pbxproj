@@ -61,6 +61,7 @@
 		657AE9722A28C12400DBEEEA /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9712A28C12400DBEEEA /* AppStorageExample.swift */; };
 		657AE9742A28C5D200DBEEEA /* AsyncImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */; };
 		657AE9762A28C94300DBEEEA /* BackgroundMaterialsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */; };
+		657AE9782A28CAE300DBEEEA /* TextSelectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,7 @@
 		657AE9712A28C12400DBEEEA /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
 		657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageExample.swift; sourceTree = "<group>"; };
 		657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsExample.swift; sourceTree = "<group>"; };
+		657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				657AE9712A28C12400DBEEEA /* AppStorageExample.swift */,
 				657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */,
 				657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */,
+				657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				656B01342A261C2200D28F63 /* StepperExample.swift in Sources */,
 				656BEE952A1E2EC1001D5DA0 /* ListExample.swift in Sources */,
 				656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */,
+				657AE9782A28CAE300DBEEEA /* TextSelectionExample.swift in Sources */,
 				656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */,
 				656B01362A261DF800D28F63 /* SliderExample.swift in Sources */,
 				656B01242A24D4A900D28F63 /* TextEditorExample.swift in Sources */,
