@@ -64,6 +64,7 @@
 		657AE9782A28CAE300DBEEEA /* TextSelectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */; };
 		657AE97A2A28CB7400DBEEEA /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9792A28CB7400DBEEEA /* ButtonStyleExample.swift */; };
 		657AE97C2A28CED900DBEEEA /* ListSwipeActionsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE97B2A28CED900DBEEEA /* ListSwipeActionsExample.swift */; };
+		657AE97E2A28D28300DBEEEA /* BadgesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE97D2A28D28300DBEEEA /* BadgesExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +126,7 @@
 		657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionExample.swift; sourceTree = "<group>"; };
 		657AE9792A28CB7400DBEEEA /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
 		657AE97B2A28CED900DBEEEA /* ListSwipeActionsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsExample.swift; sourceTree = "<group>"; };
+		657AE97D2A28D28300DBEEEA /* BadgesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				657AE9772A28CAE300DBEEEA /* TextSelectionExample.swift */,
 				657AE9792A28CB7400DBEEEA /* ButtonStyleExample.swift */,
 				657AE97B2A28CED900DBEEEA /* ListSwipeActionsExample.swift */,
+				657AE97D2A28D28300DBEEEA /* BadgesExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657AE97E2A28D28300DBEEEA /* BadgesExample.swift in Sources */,
 				656BEE792A18FADA001D5DA0 /* ConditionalExample.swift in Sources */,
 				6534C2CA2A12EDFD00B1D8B6 /* ContentView.swift in Sources */,
 				656BEE8E2A1B98EC001D5DA0 /* SheetsExample.swift in Sources */,
