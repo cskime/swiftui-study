@@ -60,6 +60,7 @@
 		657AE9702A27E73800DBEEEA /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */; };
 		657AE9722A28C12400DBEEEA /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9712A28C12400DBEEEA /* AppStorageExample.swift */; };
 		657AE9742A28C5D200DBEEEA /* AsyncImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */; };
+		657AE9762A28C94300DBEEEA /* BackgroundMaterialsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,7 @@
 		657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
 		657AE9712A28C12400DBEEEA /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
 		657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageExample.swift; sourceTree = "<group>"; };
+		657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				657AE96F2A27E73800DBEEEA /* EnvironmentObjectExample.swift */,
 				657AE9712A28C12400DBEEEA /* AppStorageExample.swift */,
 				657AE9732A28C5D200DBEEEA /* AsyncImageExample.swift */,
+				657AE9752A28C94300DBEEEA /* BackgroundMaterialsExample.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				656B01222A24D21B00D28F63 /* TextFieldExample.swift in Sources */,
 				6534C2DB2A12EE0E00B1D8B6 /* ShapeExample.swift in Sources */,
 				656B013A2A2625E000D28F63 /* DarkModeExample.swift in Sources */,
+				657AE9762A28C94300DBEEEA /* BackgroundMaterialsExample.swift in Sources */,
 				656B01342A261C2200D28F63 /* StepperExample.swift in Sources */,
 				656BEE952A1E2EC1001D5DA0 /* ListExample.swift in Sources */,
 				656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */,
