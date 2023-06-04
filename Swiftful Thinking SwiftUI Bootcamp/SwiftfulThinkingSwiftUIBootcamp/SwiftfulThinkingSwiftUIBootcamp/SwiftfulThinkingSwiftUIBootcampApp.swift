@@ -12,7 +12,8 @@ struct SwiftfulThinkingSwiftUIBootcampApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            AppStorageExample()
+//            AppStorageExample()
+            FocusStateExample()
         }
     }
 }
