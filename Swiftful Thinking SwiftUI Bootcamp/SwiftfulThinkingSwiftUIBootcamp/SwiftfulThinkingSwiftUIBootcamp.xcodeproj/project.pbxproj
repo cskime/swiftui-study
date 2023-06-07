@@ -70,6 +70,7 @@
 		65F885342A2FC95100D151F1 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885332A2FC95100D151F1 /* IntroView.swift */; };
 		65F885362A2FCA9500D151F1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885352A2FCA9400D151F1 /* OnboardingView.swift */; };
 		65F885382A30ACAA00D151F1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885372A30ACAA00D151F1 /* ProfileView.swift */; };
+		65F8853A2A30B04900D151F1 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885392A30B04900D151F1 /* NavigationStackBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,6 +138,7 @@
 		65F885332A2FC95100D151F1 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		65F885352A2FCA9400D151F1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		65F885372A30ACAA00D151F1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		65F885392A30B04900D151F1 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				657AE97D2A28D28300DBEEEA /* BadgesExample.swift */,
 				65F885122A2C13C500D151F1 /* FocusStateExample.swift */,
 				65F885142A2C193700D151F1 /* SubmitTextFieldBootcamp.swift */,
+				65F885392A30B04900D151F1 /* NavigationStackBootcamp.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				657AE97E2A28D28300DBEEEA /* BadgesExample.swift in Sources */,
 				656BEE792A18FADA001D5DA0 /* ConditionalExample.swift in Sources */,
 				6534C2CA2A12EDFD00B1D8B6 /* ContentView.swift in Sources */,
+				65F8853A2A30B04900D151F1 /* NavigationStackBootcamp.swift in Sources */,
 				656BEE8E2A1B98EC001D5DA0 /* SheetsExample.swift in Sources */,
 				656BEE6D2A18810A001D5DA0 /* SafeAreaExample.swift in Sources */,
 				6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */,
