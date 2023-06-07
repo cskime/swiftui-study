@@ -69,6 +69,7 @@
 		65F885152A2C193700D151F1 /* SubmitTextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885142A2C193700D151F1 /* SubmitTextFieldBootcamp.swift */; };
 		65F885342A2FC95100D151F1 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885332A2FC95100D151F1 /* IntroView.swift */; };
 		65F885362A2FCA9500D151F1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885352A2FCA9400D151F1 /* OnboardingView.swift */; };
+		65F885382A30ACAA00D151F1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F885372A30ACAA00D151F1 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +136,7 @@
 		65F885142A2C193700D151F1 /* SubmitTextFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTextFieldBootcamp.swift; sourceTree = "<group>"; };
 		65F885332A2FC95100D151F1 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		65F885352A2FCA9400D151F1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		65F885372A30ACAA00D151F1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 			children = (
 				65F885332A2FC95100D151F1 /* IntroView.swift */,
 				65F885352A2FCA9400D151F1 /* OnboardingView.swift */,
+				65F885372A30ACAA00D151F1 /* ProfileView.swift */,
 			);
 			path = OnboardingViews;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				656BEE952A1E2EC1001D5DA0 /* ListExample.swift in Sources */,
 				656BEE8A2A199741001D5DA0 /* AnimationTImingExample.swift in Sources */,
 				657AE9782A28CAE300DBEEEA /* TextSelectionExample.swift in Sources */,
+				65F885382A30ACAA00D151F1 /* ProfileView.swift in Sources */,
 				65F885342A2FC95100D151F1 /* IntroView.swift in Sources */,
 				656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */,
 				656B01362A261DF800D28F63 /* SliderExample.swift in Sources */,

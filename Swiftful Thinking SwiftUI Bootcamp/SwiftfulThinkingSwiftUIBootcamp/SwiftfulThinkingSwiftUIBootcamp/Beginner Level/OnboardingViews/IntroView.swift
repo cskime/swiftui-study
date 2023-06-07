@@ -28,9 +28,17 @@ struct IntroView: View {
             // else
             // onboarding view
             if currentUserSignIn {
-                Text("Profile View")
+                ProfileView()
+                    .transition(.asymmetric(
+                        insertion: .move(edge: .bottom),
+                        removal: .move(edge: .top))
+                    )
             } else {
                 OnboardingView()
+                    .transition(.asymmetric(
+                        insertion: .move(edge: .top),
+                        removal: .move(edge: .bottom))
+                    )
             }
         }
     }

@@ -25,12 +25,20 @@ struct OnboardingView: View {
         removal: .move(edge: .leading)
     )
     
+    // Onboarding Inputs
     @State private var name = ""
     @State private var age: Double = 50
     @State private var gender = ""
     
+    // for the alert
     @State private var alertTitle = ""
     @State private var showAlert = false
+    
+    // app storage
+    @AppStorage("name") var currentUserName: String?
+    @AppStorage("age") var currentUserAge: Int?
+    @AppStorage("gender") var currentUserGender: String?
+    @AppStorage("signed_in") var currentUserSignIn = false
     
     var body: some View {
         ZStack {
@@ -51,7 +59,7 @@ struct OnboardingView: View {
                         .transition(transition)
                 default:
                     RoundedRectangle(cornerRadius: 25)
-                        .foregro undColor(.green)
+                        .foregroundColor(.green)
                 }
             }
             
@@ -62,7 +70,9 @@ struct OnboardingView: View {
             }
             .padding(30)
         }
-        .alert
+        .alert(alertTitle, isPresented: $showAlert) {
+            
+        }
     }
 }
 
@@ -239,6 +249,13 @@ extension OnboardingView {
         case 1:
             /* 입력한 이름이 3글자 이상일 때만 다음 단계를 진행할 수 있다. */
             guard name.count >= 3 else {
+                showAlert(title: "Your name must be at least 3 characters long! 😩")
+                return
+            }
+            
+        case 3:
+            guard gender.count > 1 else {
+                showAlert(title: "Please select a gender before moving forward! 😳")
                 return
             }
             
@@ -248,7 +265,7 @@ extension OnboardingView {
         
         // Go to next section
         if onboardingState == 3 {
-            // sign in
+            signIn()
         } else {
             /* Animation을 주면 화면이 바뀔 때 fade in/out animation이 적용된다.
              */
@@ -256,5 +273,20 @@ extension OnboardingView {
                 onboardingState += 1
             }
         }
+    }
+    
+    func signIn() {
+        currentUserName = name
+        currentUserAge = Int(age)
+        currentUserGender = gender
+        
+        withAnimation(.spring()) {
+            currentUserSignIn = true
+        }
+    }
+    
+    func showAlert(title: String) {
+        alertTitle = title
+        showAlert.toggle()
     }
 }
