@@ -19,6 +19,7 @@
 		6534C2E12A13A92B00B1D8B6 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2E02A13A92B00B1D8B6 /* ImageExample.swift */; };
 		6534C2E32A13BB7A00B1D8B6 /* FrameExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2E22A13BB7A00B1D8B6 /* FrameExample.swift */; };
 		6534C2E52A1436F200B1D8B6 /* BackgroundOverlayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C2E42A1436F200B1D8B6 /* BackgroundOverlayExample.swift */; };
+		655D9B9E2A3BE21D005E133E /* AnimationUpdatedBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D9B9D2A3BE21D005E133E /* AnimationUpdatedBootcamp.swift */; };
 		656220492A353FA90082840A /* SafeAreaInsetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656220482A353FA90082840A /* SafeAreaInsetBootcamp.swift */; };
 		6562204B2A3542E70082840A /* GroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562204A2A3542E70082840A /* GroupBootcamp.swift */; };
 		656B011A2A1EAD3000D28F63 /* AlertExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B01192A1EAD3000D28F63 /* AlertExample.swift */; };
@@ -91,6 +92,7 @@
 		6534C2E02A13A92B00B1D8B6 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 		6534C2E22A13BB7A00B1D8B6 /* FrameExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExample.swift; sourceTree = "<group>"; };
 		6534C2E42A1436F200B1D8B6 /* BackgroundOverlayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayExample.swift; sourceTree = "<group>"; };
+		655D9B9D2A3BE21D005E133E /* AnimationUpdatedBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedBootcamp.swift; sourceTree = "<group>"; };
 		656220482A353FA90082840A /* SafeAreaInsetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetBootcamp.swift; sourceTree = "<group>"; };
 		6562204A2A3542E70082840A /* GroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBootcamp.swift; sourceTree = "<group>"; };
 		656B01192A1EAD3000D28F63 /* AlertExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExample.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				65F885562A3411BD00D151F1 /* ResizableSheetBootcamp.swift */,
 				656220482A353FA90082840A /* SafeAreaInsetBootcamp.swift */,
 				6562204A2A3542E70082840A /* GroupBootcamp.swift */,
+				655D9B9D2A3BE21D005E133E /* AnimationUpdatedBootcamp.swift */,
 			);
 			path = "Beginner Level";
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				65F885382A30ACAA00D151F1 /* ProfileView.swift in Sources */,
 				65F885342A2FC95100D151F1 /* IntroView.swift in Sources */,
 				656BEE642A158BDB001D5DA0 /* SpacerExample.swift in Sources */,
+				655D9B9E2A3BE21D005E133E /* AnimationUpdatedBootcamp.swift in Sources */,
 				656B01362A261DF800D28F63 /* SliderExample.swift in Sources */,
 				656B01242A24D4A900D28F63 /* TextEditorExample.swift in Sources */,
 				656BEE862A198DFA001D5DA0 /* TernaryExample.swift in Sources */,
