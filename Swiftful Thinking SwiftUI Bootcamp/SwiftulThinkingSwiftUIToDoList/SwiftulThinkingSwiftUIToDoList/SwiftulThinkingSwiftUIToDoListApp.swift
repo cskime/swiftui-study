@@ -15,6 +15,11 @@ import SwiftUI
 
 @main
 struct SwiftulThinkingSwiftUIToDoListApp: App {
+    
+    /* 앱 전체에서 사용하기 위해 App에서 State로 정의
+     */
+    @StateObject var listViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             
@@ -23,6 +28,9 @@ struct SwiftulThinkingSwiftUIToDoListApp: App {
             NavigationStack {
                 ListView()
             }
+            /* 하위 어떤 View에서도 이 object에 접근할 수 있도록 environment object로 등록한다.
+             */
+            .environmentObject(listViewModel)
         }
     }
 }
