@@ -9,15 +9,16 @@ import SwiftUI
 
 struct ListView: View {
     
-    @State private var items: [String] = [
-        "This is the first title!",
-        "This is the second!",
-        "Third!"
+    @State private var items: [ItemModel] = [
+        ItemModel(title: "This is the first title!", isCompleted: false),
+        ItemModel(title: "This is the second!", isCompleted: true),
+        ItemModel(title: "Third!", isCompleted: false),
     ]
     
     var body: some View {
-        List(items, id: \.self) { item in
-            ListRowView(title: item)
+        // ItemModel은 Identifiable protocol을 채택하고 있으므로 id를 정해주지 않아도 된다.
+        List(items) { item in
+            ListRowView(item: item)
         }
         .listStyle(.plain)
         .navigationTitle("Todo List 📝")
