@@ -15,19 +15,28 @@ import Foundation
  */
 class ListViewModel: ObservableObject {
     
-    @Published var items: [ItemModel] = []
+    @Published var items: [ItemModel] = [] {
+        didSet {
+            saveItems()
+        }
+    }
+    
+    let itemsKey = "items_list"
     
     init() {
         getItems()
     }
     
     func getItems() {
-        let newItems = [
-            ItemModel(title: "This is the first title!", isCompleted: false),
-            ItemModel(title: "This is the second!", isCompleted: true),
-            ItemModel(title: "Third!", isCompleted: false),
-        ]
-        items.append(contentsOf: newItems)
+        guard let data = UserDefaults.standard.data(forKey: itemsKey) else {
+            return
+        }
+        
+        guard let savedItems = try? JSONDecoder().decode([ItemModel].self, from: data) else {
+            return
+        }
+        
+        items = savedItems
     }
     
     // MARK: - CRUD
@@ -51,5 +60,13 @@ class ListViewModel: ObservableObject {
         }
         
         items[index] = item.updateCompletion()
+    }
+    
+    func saveItems() {
+        /* @AppStorage는 SwiftUI View에서만 사용하는게 좋다.
+         */
+        if let encodedData = try? JSONEncoder().encode(items) {
+            UserDefaults.standard.set(encodedData, forKey: itemsKey)
+        }
     }
 }
