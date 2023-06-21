@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652C01A82A4312D80073E0D7 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652C01A72A4312D80073E0D7 /* NoItemsView.swift */; };
 		655D9BAE2A3C3BC4005E133E /* SwiftulThinkingSwiftUIToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D9BAD2A3C3BC4005E133E /* SwiftulThinkingSwiftUIToDoListApp.swift */; };
 		655D9BB22A3C3BC5005E133E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655D9BB12A3C3BC5005E133E /* Assets.xcassets */; };
 		655D9BB52A3C3BC5005E133E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655D9BB42A3C3BC5005E133E /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652C01A72A4312D80073E0D7 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		655D9BAA2A3C3BC4005E133E /* SwiftulThinkingSwiftUIToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftulThinkingSwiftUIToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655D9BAD2A3C3BC4005E133E /* SwiftulThinkingSwiftUIToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftulThinkingSwiftUIToDoListApp.swift; sourceTree = "<group>"; };
 		655D9BB12A3C3BC5005E133E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				655D9BBC2A3C3E11005E133E /* ListView.swift */,
 				655D9BBE2A3C4204005E133E /* ListRowView.swift */,
 				655D9BC02A3C4346005E133E /* AddView.swift */,
+				652C01A72A4312D80073E0D7 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				655D9BC72A3C4D44005E133E /* ListViewModel.swift in Sources */,
 				655D9BAE2A3C3BC4005E133E /* SwiftulThinkingSwiftUIToDoListApp.swift in Sources */,
 				655D9BBD2A3C3E11005E133E /* ListView.swift in Sources */,
+				652C01A82A4312D80073E0D7 /* NoItemsView.swift in Sources */,
 				655D9BBF2A3C4204005E133E /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
