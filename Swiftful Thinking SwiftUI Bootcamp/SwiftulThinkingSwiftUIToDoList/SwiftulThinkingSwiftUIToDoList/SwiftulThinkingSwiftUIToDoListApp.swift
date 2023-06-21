@@ -28,6 +28,11 @@ struct SwiftulThinkingSwiftUIToDoListApp: App {
             NavigationStack {
                 ListView()
             }
+            /* iOS 16 기준 더 이상 이 modifier를 사용하지 않아도 된다. NavigationStack을 사용하면 iPad에서도 sidebar로 나오지 안흥ㅁ
+             * Sidebar로 나오게 하고 싶으면, navigationSplitViewStyle을 사용해야 한다.
+             */
+//            .navigationViewStyle(.stack)
+//            .navigationSplitViewStyle(.automatic)
             /* 하위 어떤 View에서도 이 object에 접근할 수 있도록 environment object로 등록한다.
              */
             .environmentObject(listViewModel)

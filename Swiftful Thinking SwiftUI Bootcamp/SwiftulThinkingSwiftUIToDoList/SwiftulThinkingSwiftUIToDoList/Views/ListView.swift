@@ -62,5 +62,8 @@ struct ListView_Previews: PreviewProvider {
          * 따로 추가해주지 않으면 preview에서 crash가 발생한다.
          */
         .environmentObject(ListViewModel())
+        /* Preview에서 color scheme 바꾸기 */
+        .preferredColorScheme(.dark)
+//        .previewInterfaceOrientation(.landscapeLeft)
     }
 }
