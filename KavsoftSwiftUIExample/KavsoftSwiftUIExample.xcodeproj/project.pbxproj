@@ -13,6 +13,8 @@
 		6578BF862A4DAE3300457033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6578BF852A4DAE3300457033 /* Preview Assets.xcassets */; };
 		6578BF882A4DAE3300457033 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578BF872A4DAE3300457033 /* Persistence.swift */; };
 		6578BF8B2A4DAE3300457033 /* KavsoftSwiftUIExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6578BF892A4DAE3300457033 /* KavsoftSwiftUIExample.xcdatamodeld */; };
+		6578BF932A4DB19200457033 /* CustomKeyboardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578BF922A4DB19200457033 /* CustomKeyboardExample.swift */; };
+		6578BF962A4DB6A900457033 /* CustomTFKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578BF952A4DB6A900457033 /* CustomTFKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		6578BF852A4DAE3300457033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6578BF872A4DAE3300457033 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6578BF8A2A4DAE3300457033 /* KavsoftSwiftUIExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KavsoftSwiftUIExample.xcdatamodel; sourceTree = "<group>"; };
+		6578BF922A4DB19200457033 /* CustomKeyboardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardExample.swift; sourceTree = "<group>"; };
+		6578BF952A4DB6A900457033 /* CustomTFKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTFKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			children = (
 				6578BF7E2A4DAE3300457033 /* KavsoftSwiftUIExampleApp.swift */,
 				6578BF802A4DAE3300457033 /* ContentView.swift */,
+				6578BF912A4DB18000457033 /* Examples */,
 				6578BF822A4DAE3300457033 /* Assets.xcassets */,
 				6578BF872A4DAE3300457033 /* Persistence.swift */,
 				6578BF892A4DAE3300457033 /* KavsoftSwiftUIExample.xcdatamodeld */,
@@ -71,6 +76,23 @@
 				6578BF852A4DAE3300457033 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6578BF912A4DB18000457033 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				6578BF942A4DB69100457033 /* CustomKeyboardExample */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		6578BF942A4DB69100457033 /* CustomKeyboardExample */ = {
+			isa = PBXGroup;
+			children = (
+				6578BF922A4DB19200457033 /* CustomKeyboardExample.swift */,
+				6578BF952A4DB6A900457033 /* CustomTFKeyboard.swift */,
+			);
+			path = CustomKeyboardExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6578BF882A4DAE3300457033 /* Persistence.swift in Sources */,
+				6578BF962A4DB6A900457033 /* CustomTFKeyboard.swift in Sources */,
+				6578BF932A4DB19200457033 /* CustomKeyboardExample.swift in Sources */,
 				6578BF812A4DAE3300457033 /* ContentView.swift in Sources */,
 				6578BF7F2A4DAE3300457033 /* KavsoftSwiftUIExampleApp.swift in Sources */,
 				6578BF8B2A4DAE3300457033 /* KavsoftSwiftUIExample.xcdatamodeld in Sources */,
