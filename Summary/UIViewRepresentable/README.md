@@ -225,3 +225,4 @@ func makeUIView(context: Context) -> UIButton {
 
 - https://developer.apple.com/documentation/swiftui/uiviewrepresentable
 - https://ios-development.tistory.com/1043
+- https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-modifiers-for-a-uiviewrepresentable-struct
