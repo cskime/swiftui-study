@@ -22,4 +22,4 @@
 
 |       | Name |
 | :---: | :---: |
-| 1 | [Swiftful Thinking SwiftUI Bootcamp](https://github.com/cskime/swiftui-study/tree/main/Swiftful%20Thinking%20SwiftUI%20Bootcamp/SwiftfulThinkingSwiftUIBootcamp) |
+| 1 | [Swiftful Thinking SwiftUI Bootcamp](https://github.com/cskime/swiftui-study/tree/main/Swiftful%20Thinking/SwiftfulThinkingSwiftUIBootcamp) |
