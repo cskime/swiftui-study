@@ -98,14 +98,15 @@ struct RealWorldExample: View {
                 Circle()
                     .fill(
                         LinearGradient(
-                            gradient: Gradient(colors: [Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1))]),
+//                            gradient: Gradient(colors: [Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1))]),
+                            gradient: Gradient(colors: [Color(red: 0.5, green: 0.3, blue: 0.9), Color(red: 0.3, green: 0.06, blue: 0.9)]),
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         )
                     )
                     .frame(width: 100, height: 100)
                     .shadow(
-                        color: Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 0.5)),
+                        color: Color(red: 0.5, green: 0.3, blue: 0.9, opacity: 0.5),
                         radius: 10,
                         x: 0,
                         y: 10
@@ -120,7 +121,7 @@ struct RealWorldExample: View {
                                     .foregroundColor(.white)
                             )
                             .shadow(
-                                color: Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 0.5)),
+                                color: Color(red: 0.5, green: 0.3, blue: 0.9, opacity: 0.5),
                                 radius: 10,
                                 x: 5,
                                 y: 5
